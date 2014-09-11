@@ -46,7 +46,7 @@ public class FileAdapter extends BaseAdapter {
 	}
 
 	public long getItemId(int position) {
-		return position;
+		return position; //
 	}
 
 	public View getView(int position, View convertView, ViewGroup parent) {
